@@ -1,0 +1,10 @@
+{
+  "firebase": "firechat",
+  "public": "_site/",
+  "ignore": [
+    "README.md",
+    "firebase.json",
+    ".*",
+    "**/node_modules/**"
+  ]
+}

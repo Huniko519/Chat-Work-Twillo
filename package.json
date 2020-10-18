@@ -1,0 +1,44 @@
+{
+  "name": "firechat",
+  "description": "Realtime open source chat client powered by Firebase",
+  "version": "3.0.1",
+  "author": "Firebase (https://firebase.google.com/)",
+  "homepage": "https://firechat.firebaseapp.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebase/firechat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/firebase/firechat/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "talk",
+    "firebase",
+    "realtime",
+    "websocket",
+    "synchronization"
+  ],
+  "main": "dist/firechat.js",
+  "files": [
+    "dist/**",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "firebase": "3.x.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-jst": "~0.5.0",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
